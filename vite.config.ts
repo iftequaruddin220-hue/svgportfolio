@@ -8,7 +8,11 @@ export default defineConfig({
     {
       name: 'copy-root-assets',
       closeBundle() {
-        cpSync('assets', 'dist/assets', { recursive: true });
+        try {
+          cpSync('assets', 'dist/assets', { recursive: true, force: true });
+        } catch (e) {
+          console.warn('Asset copy notice:', e);
+        }
       },
     },
   ],
