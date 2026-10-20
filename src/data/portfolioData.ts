@@ -119,7 +119,6 @@ export const UNITY_ITEMS: VideoReelItem[] = [
 ];
 
 export const MODELS: ModelConfig[] = [
-  { name: "Kaijin", url: "/assets/models/kaijin.glb?v=2", thumb: "/assets/models/thumbs/kaijin.jpg" },
   { name: "Valkyrie", url: "/assets/models/valkyrie.glb", thumb: "/assets/models/thumbs/valkyrie.jpg" },
 ];
 

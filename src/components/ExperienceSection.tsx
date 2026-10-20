@@ -14,23 +14,36 @@ export const ExperienceSection: React.FC = () => {
           <ol className="timeline">
             <li className="timeline__item">
               <span className="timeline__year">2026 &mdash; PRESENT</span>
-              <h4 className="timeline__role">Junior Software Developer &mdash; PACT Software Services Pvt. Ltd.</h4>
+              <h4 className="timeline__role">Techno-Functional Consultant &mdash; PACT Software Services Pvt. Ltd.</h4>
               <p className="timeline__desc">
-                Working on ERP and business management software, contributing to software development,
-                debugging, understanding business requirements, and working with existing software modules.
+                Translating client requirements into functional specifications and software workflows for ERP modules, analyzing business processes, coordinating between clients and development teams, and executing module testing, data validation, and UAT.
+              </p>
+            </li>
+            <li className="timeline__item">
+              <span className="timeline__year">2026</span>
+              <h4 className="timeline__role">AI Data Annotation &amp; Evaluation Specialist &mdash; Innodata</h4>
+              <p className="timeline__desc">
+                Performed AI data annotation and model evaluation in production workflows using project-specific guidelines, structured quality criteria, and error detection.
               </p>
             </li>
           </ol>
         </div>
 
         <div className="resume__col">
-          <h3 className="resume__heading">Education</h3>
+          <h3 className="resume__heading">Education &amp; Credentials</h3>
           <ol className="timeline">
             <li className="timeline__item">
-              <span className="timeline__year">2026</span>
-              <h4 className="timeline__role">B.Tech in Artificial Intelligence &amp; Data Science</h4>
+              <span className="timeline__year">SEP 2022 &mdash; SEP 2026</span>
+              <h4 className="timeline__role">Bachelor of Engineering (B.E.), Artificial Intelligence &amp; Data Science</h4>
               <p className="timeline__desc">
-                Methodist College of Engineering and Technology &middot; Osmania University
+                Methodist College of Engineering &amp; Technology, Hyderabad
+              </p>
+            </li>
+            <li className="timeline__item">
+              <span className="timeline__year">CREDENTIALS</span>
+              <h4 className="timeline__role">Industry Certifications</h4>
+              <p className="timeline__desc">
+                Google Data Analytics &middot; Microsoft Power BI Data Analyst &middot; IBM SkillsBuild AI &amp; Data Science &middot; Google Cloud ML &amp; AI
               </p>
             </li>
           </ol>

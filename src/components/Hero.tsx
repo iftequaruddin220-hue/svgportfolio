@@ -89,16 +89,15 @@ export const Hero: React.FC<HeroProps> = ({ onOpenMedia }) => {
           className="dio-cover" 
           href="#dio-feature" 
           aria-label="View DIO character turnaround"
-          onClick={(e) => {
-            // Also opens turnaround in lightbox if desired
-          }}
         >
           <img 
-            src="/assets/work/dio-turnaround.png" 
+            src="/assets/work/roblox-dio.png" 
             alt="DIO, a gold-haired stylized 3D character with violet skin and a white and gold outfit" 
-            fetchPriority="high" 
-            width={4096} 
-            height={2160} 
+            loading="eager"
+            {...({ fetchpriority: 'high' } as any)}
+            onError={(e) => {
+              (e.currentTarget as HTMLImageElement).src = '/assets/work/dio-turnaround.png';
+            }}
           />
         </a>
         <div className="hero__caption">

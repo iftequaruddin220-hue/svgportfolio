@@ -305,9 +305,9 @@ export const ModelViewer: React.FC = () => {
           }
         },
         (err) => {
-          console.error(err);
-          setLoadingText('Could not load the 3D model.');
-          setIsLoading(true);
+          console.warn('Could not load 3D model:', err);
+          setLoadingText('Could not load 3D model. Please select another character.');
+          setIsLoading(false);
         }
       );
     }

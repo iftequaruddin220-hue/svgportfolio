@@ -15,17 +15,27 @@ export const ContactSection: React.FC = () => {
         <p className="contact__meta">
           <a href="tel:+918519859512">+91 85198 59512</a>
           <span aria-hidden="true">&middot;</span>
-          <span>Hyderabad, India</span>
+          <span>Hyderabad, India (Open to UAE, Saudi Arabia &amp; India)</span>
         </p>
         <ul className="social">
           <li>
-            <a href="https://www.artstation.com" target="_blank" rel="noopener noreferrer">
-              ArtStation &#8599;
+            <a href="https://www.linkedin.com/in/iftequar-uddin-316b2a376/" target="_blank" rel="noopener noreferrer">
+              LinkedIn &#8599;
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/iftequaruddin220-hue" target="_blank" rel="noopener noreferrer">
+              GitHub &#8599;
             </a>
           </li>
           <li>
             <a href="/assets/CV.pdf" target="_blank" rel="noopener noreferrer">
-              CV (PDF)
+              CV (PDF) &#8599;
+            </a>
+          </li>
+          <li>
+            <a href="https://www.artstation.com" target="_blank" rel="noopener noreferrer">
+              ArtStation &#8599;
             </a>
           </li>
           <li>

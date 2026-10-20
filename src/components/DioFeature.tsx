@@ -6,7 +6,7 @@ interface DioFeatureProps {
 }
 
 export const DioFeature: React.FC<DioFeatureProps> = ({ onOpenMedia }) => {
-  const turnaroundImg = "/assets/work/dio-turnaround.png";
+  const turnaroundImg = "/assets/work/roblox-dio.png";
   const title = "DIO — Character turnaround";
 
   return (
@@ -33,10 +33,11 @@ export const DioFeature: React.FC<DioFeatureProps> = ({ onOpenMedia }) => {
       >
         <img
           src={turnaroundImg}
-          alt="DIO character turnaround showing side, front and back views"
+          alt="DIO character turnaround showing front and side views"
           loading="lazy"
-          width={4096}
-          height={2160}
+          onError={(e) => {
+            (e.currentTarget as HTMLImageElement).src = '/assets/work/dio-turnaround.png';
+          }}
         />
       </figure>
       <div className="dio-feature__foot">
